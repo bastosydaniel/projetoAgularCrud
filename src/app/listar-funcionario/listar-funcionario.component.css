@@ -1,0 +1,14 @@
+table {;
+    width: 90%;
+    margin: 0 auto;
+
+}
+th {
+    background-color: #4cacaf;
+    color: white;
+    box-shadow: 0 0 10px #4cacaf;
+}
+td {
+    background-color: #e3e3e3;
+    color: black;
+}
