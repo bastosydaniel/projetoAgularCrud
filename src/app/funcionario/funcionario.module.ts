@@ -7,6 +7,9 @@ import { FuncionarioService } from '../funcionario.service';
 import { ListarFuncionarioComponent } from '../listar-funcionario/listar-funcionario.component';
 import { CadastrarFuncionarioComponent } from '../cadastrar-funcionario/cadastrar-funcionario.component';
 import { EditarFuncionarioComponent } from '../editar-funcionario/editar-funcionario.component';
+import { MatButtonModule } from '@angular/material/button';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -17,9 +20,13 @@ import { EditarFuncionarioComponent } from '../editar-funcionario/editar-funcion
   imports: [
     CommonModule,
     RouterModule,
-    FormsModule
+    FormsModule,
+    MatButtonModule,
+    MatDividerModule,
+    MatIconModule
+
   ],
-  providers:[
+  providers: [
     FuncionarioService
   ]
 })
